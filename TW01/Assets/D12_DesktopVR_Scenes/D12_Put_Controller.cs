@@ -52,13 +52,23 @@ public class D12_Put_Controller : MonoBehaviour
 
     void ThrowHeart()
     {
+        // UI의 heart 개수 감소
         UI_Controller.GetComponent<D12_UI_Controller>().Decrease_PickCounter();
 
         Vector3 Pos = PlayerCamera.position + PlayerCamera.forward;
         Quaternion Rot = Quaternion.Euler(PlayerCamera.forward);
+
+        // heart(Clone) 생성
         GameObject Clone = Instantiate(TargetObjectToClone, Pos, Rot);
+        Clone.SetActive(true);  // 생성 후 바로 활성화
+
+        // Collider 설정: isTrigger를 false로 설정하여 충돌이 발생하도록
         Clone.GetComponent<Collider>().isTrigger = false;
+
+        // Rigidbody 설정: useGravity를 true로 하여 물리적 영향 받도록
         Clone.GetComponent<Rigidbody>().useGravity = true;
+
+        // 카메라 방향으로 힘을 주어 던지기
         Clone.GetComponent<Rigidbody>().AddForce(PlayerCamera.forward * 400f);
     }
 }
