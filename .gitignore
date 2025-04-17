@@ -16,6 +16,8 @@ UserSettings/
 *.tmp
 *.user
 *.userprefs
+.vs/
+
 
 # OS/IDE junk
 .DS_Store
