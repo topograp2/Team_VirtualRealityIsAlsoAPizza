@@ -50,6 +50,11 @@ public class D12_UI_Controller : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    public void LoadHomeScene()
+    {
+        SceneManager.LoadScene("BY_HomeScene");
+    }
+
     public void Increase_PickCounter()
     {
         print($"increase pickCounter");
