@@ -2,6 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
+
 
 public class MissionStatusUI : MonoBehaviour
 {
@@ -16,6 +18,8 @@ public class MissionStatusUI : MonoBehaviour
     public Sprite[] thumbnailSprites;
     public GameObject[] thumbnailBorders;
     public Text noMissionText; //  미션 없을 때 표시할 텍스트
+    public Text missionDescriptionText;
+    public String[] missionDescriptions;
 
     public int complete;
     private int currentMissionIndex;
@@ -57,6 +61,14 @@ public class MissionStatusUI : MonoBehaviour
 
         missionCardImage.gameObject.SetActive(true);
         missionCardImage.sprite = missionCardSprites[currentMissionIndex];
+        if (missionDescriptions.Length > currentMissionIndex)
+        {
+            missionDescriptionText.text = missionDescriptions[currentMissionIndex];
+        }
+        else
+        {
+            missionDescriptionText.text = "";
+        }
         // glow 조건
         bool showGlow = complete == 5 && currentMissionIndex == complete - 1;
 
