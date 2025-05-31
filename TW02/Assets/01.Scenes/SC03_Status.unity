@@ -708,6 +708,7 @@ MonoBehaviour:
   - "24\uC2DC\uAC04 \uC6B4\uC601\uB418\uB294 \uBBF8\uB514\uC5B4 \uAC10\uC0C1\uC2E4\uC740
     7\uC77C \uC804\uBD80\uD130 \uC608\uC57D \uAC00\uB2A5! \uC653\uCC60, \uC6E8\uC774\uBE0C,
     \uB514\uC988\uB2C8\uD50C\uB7EC\uC2A4, DVD \uBB34\uB8CC \uAC10\uC0C1!"
+  ending: SC08_Ending2
   complete: 0
 --- !u!1 &531892093
 GameObject:
