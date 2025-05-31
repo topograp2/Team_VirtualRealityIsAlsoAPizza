@@ -20,6 +20,7 @@ public class MissionStatusUI : MonoBehaviour
     public Text noMissionText; //  미션 없을 때 표시할 텍스트
     public Text missionDescriptionText;
     public String[] missionDescriptions;
+    public String ending;
 
     public int complete;
     private int currentMissionIndex;
@@ -122,6 +123,10 @@ public class MissionStatusUI : MonoBehaviour
         {
             currentMissionIndex++;
             UpdateUI();
+        }
+        if (currentMissionIndex == complete - 1 && complete == 5)
+        {
+            SceneManager.LoadScene(ending); // 엔딩씬 이동
         }
     }
 
