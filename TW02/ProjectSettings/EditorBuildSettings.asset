@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01.Scenes/Mission02_Success.unity
     guid: 826eb70e0636e41508918758688be424
+  - enabled: 1
+    path: Assets/01.Scenes/5_Mission01_Play.unity
+    guid: ace70c4c6eac23b48a5353f2c10e67a2
   m_configObjects: {}
