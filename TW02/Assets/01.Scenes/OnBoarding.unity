@@ -1884,6 +1884,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1487656630}
+    - targetCorrespondingSourceObject: {fileID: 1916515276212647934, guid: a7e250b1478db40458918369c6f31743,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1487656631}
   m_SourcePrefab: {fileID: 100100000, guid: a7e250b1478db40458918369c6f31743, type: 3}
 --- !u!224 &1241025819 stripped
 RectTransform:
@@ -2161,7 +2165,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487656627}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -2211,6 +2215,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1487656631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487656627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 977ec81ac1cc649e8923bef5cc3bd99b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonType: 0
+  sparkleImage: {fileID: 0}
 --- !u!1 &1678435573
 GameObject:
   m_ObjectHideFlags: 0
