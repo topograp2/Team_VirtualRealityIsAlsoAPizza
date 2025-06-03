@@ -1293,6 +1293,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StatusButton
       objectReference: {fileID: 0}
+    - target: {fileID: 1654645012962951352, guid: c0bb4fccb83be4c1086746529bbde34d,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8001603662237435029, guid: c0bb4fccb83be4c1086746529bbde34d,
         type: 3}
       propertyPath: m_Pivot.x
