@@ -991,8 +991,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "5. 1\uCE35\uC5D0 \uC788\uB294 \uBBF8\uB514\uC5B4 \uAC10\uC0C1\uC2E4\uC744
-    \uCC3E\uC544 \uC653\uCC60\uB97C \uC2E4\uD589\uD574 \uD654\uBA74\uC5D0 \uBE44\uCD94\uC138\uC694."
+  m_text: "5. 1\uCE35\uC5D0 \uC788\uB294 \uBBF8\uB514\uC5B4 \uC2A4\uD14C\uC774\uC9C0\uB97C
+    \uCC3E\uC544 \uAC04\uD310\uC744 \uD654\uBA74\uC5D0 \uBE44\uCD94\uC138\uC694."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3d92a0c2cdd59d7419a8348664f584dc, type: 2}
   m_sharedMaterial: {fileID: 1792351764005862861, guid: 3d92a0c2cdd59d7419a8348664f584dc,

@@ -985,7 +985,7 @@ MonoBehaviour:
     \uBB38\uC744 \uB2EB\uC73C\uB2C8 \uC8FC\uC758\uD558\uAC8C...  \uC790 \uC774\uC81C,
     \uB3C4\uC11C\uAD00\uC758 \uBB38\uC740 \uC5F4\uB838\uC73C\uB2C8 \uB2E4\uC74C \uBBF8\uC158\uC73C\uB85C
     \uD5A5\uD558\uAC8C"
-  nextSceneName: 4_MissonGuide02
+  nextSceneName: 4_MissionGuide02
 --- !u!1 &1610050825 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 862298030020706846, guid: c0bb4fccb83be4c1086746529bbde34d,
@@ -1049,8 +1049,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1. \uB3C4\uC11C\uAD00 \uCD9C\uC785\uBB38\uC758 \uD0DC\uAE45 \uAE30\uAE30\uB97C
-    \uCC3E\uC544\n\uD654\uBA74\uC5D0 \uBE44\uCD94\uC138\uC694."
+  m_text: "1. \uB3C4\uC11C\uAD00 \uCD9C\uC785\uAD6C\uC5D0 \uC788\uB294 \uD0DC\uAE45
+    \uAE30\uAE30 \uC0AC\uC9C4\uC744 \uCC3E\uC544 \uD654\uBA74\uC5D0 \uBE44\uCD94\uC138\uC694."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3d92a0c2cdd59d7419a8348664f584dc, type: 2}
   m_sharedMaterial: {fileID: 1792351764005862861, guid: 3d92a0c2cdd59d7419a8348664f584dc,
