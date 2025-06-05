@@ -1047,7 +1047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textUI: {fileID: 393948307}
   texts: []
-  nextSceneName: 4_MissonGuide05
+  nextSceneName: 4_MissionGuide05
 --- !u!1 &1610050825 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 862298030020706846, guid: c0bb4fccb83be4c1086746529bbde34d,
