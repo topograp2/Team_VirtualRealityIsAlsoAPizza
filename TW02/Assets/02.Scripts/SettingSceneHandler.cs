@@ -17,7 +17,7 @@ public class SettingSceneHandler : MonoBehaviour, IPointerClickHandler
     public void OnRestartMission()
     {
         SceneTracker.complete = 0;
-        SceneManager.LoadScene("SC01_OnBoarding");
+        SceneManager.LoadScene("OnBoarding");
     }
 
     public void QuitApp()
