@@ -10,7 +10,6 @@ public class BookingImageController : MonoBehaviour
     public Image uiImage;                // 이미지 UI
     public Sprite image01, image02, image03; // 보여줄 이미지들
     public Button stateButton;           // 상태 변화 버튼
-    public TextMeshProUGUI buttonText;  // 버튼 텍스트
 
     private int state = 1; // 현재 상태를 나타내는 변수
 
@@ -21,7 +20,6 @@ public class BookingImageController : MonoBehaviour
     {
         // 초기 상태 설정
         uiImage.sprite = image01;
-        buttonText.text = "다음";
 
         // 버튼 클릭 시 ChangeState 함수 실행
         stateButton.onClick.AddListener(ChangeState);
@@ -33,13 +31,11 @@ public class BookingImageController : MonoBehaviour
         {
             state = 2;
             uiImage.sprite = image02;
-            buttonText.text = "다음";
         }
         else if (state == 2)
         {
             state = 3;
             uiImage.sprite = image03;
-            buttonText.text = "완료";
         }
         else if (state == 3)
         {
