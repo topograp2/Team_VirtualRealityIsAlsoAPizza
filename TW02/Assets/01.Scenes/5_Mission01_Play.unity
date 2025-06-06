@@ -966,6 +966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 943540873}
   - component: {fileID: 943540872}
+  - component: {fileID: 943540874}
   m_Layer: 0
   m_Name: SceneController
   m_TagString: Untagged
@@ -1000,6 +1001,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &943540874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943540871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5bfba61f5524d1f93852f469215427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: Mission01_Success
 --- !u!1001 &1012820846
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1232,13 +1246,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 943540872}
-        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: OnClick_LoadScene
-        m_Mode: 2
+      - m_Target: {fileID: 943540874}
+        m_TargetAssemblyTypeName: NextButtonHandler, Assembly-CSharp
+        m_MethodName: OnNextButtonClicked
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: af95314fb9c1a408596324f09597b2e5,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
