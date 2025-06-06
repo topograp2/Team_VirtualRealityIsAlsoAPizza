@@ -2018,7 +2018,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1916515276212647934, guid: a7e250b1478db40458918369c6f31743,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1337516064}
   m_SourcePrefab: {fileID: 100100000, guid: a7e250b1478db40458918369c6f31743, type: 3}
 --- !u!224 &1241025819 stripped
 RectTransform:
@@ -2241,6 +2245,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1337516061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1916515276212647934, guid: a7e250b1478db40458918369c6f31743,
+    type: 3}
+  m_PrefabInstance: {fileID: 1241025818}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1337516064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337516061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 977ec81ac1cc649e8923bef5cc3bd99b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonType: 0
+  sparkleImage: {fileID: 0}
 --- !u!1 &1402640136
 GameObject:
   m_ObjectHideFlags: 0
