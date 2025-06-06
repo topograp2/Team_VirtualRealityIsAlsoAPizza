@@ -464,7 +464,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC644\uB8CC"
+  m_text: "\uB2E4\uC74C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7b36a78f3f36ec640aa2e20e23ac49ab, type: 2}
   m_sharedMaterial: {fileID: -106855172384644993, guid: 7b36a78f3f36ec640aa2e20e23ac49ab,
@@ -897,7 +897,6 @@ MonoBehaviour:
   image02: {fileID: 21300000, guid: 5646ed53ba5893442bd8e5217d8d74c0, type: 3}
   image03: {fileID: 21300000, guid: e9880a98e3a2aab44a0bbf8b5395038a, type: 3}
   stateButton: {fileID: 1165489063}
-  buttonText: {fileID: 467019306}
 --- !u!1001 &1012820846
 PrefabInstance:
   m_ObjectHideFlags: 0
